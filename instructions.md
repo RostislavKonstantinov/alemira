@@ -34,7 +34,7 @@ Payload
 ###Getting an item by pk (with all related hints)
 `GET /api/assignment_details/<pk>/`
 
-###Update an item
+###Update an item by pk
 `PUT /api/assignment_details/<pk>/`
 
 Payload
@@ -44,7 +44,7 @@ Payload
  }
 ```
 
-###Delete an item
+###Delete an item by pk
 `DELETE /api/assignment_details/<pk>/`
 
 

@@ -16,7 +16,4 @@ class AssignmentSerializer(serializers.ModelSerializer):
             'description',
             'created',
             'assignment_hints',
-
         )
-
-

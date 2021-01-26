@@ -11,6 +11,7 @@ class Assignment(models.Model):
         verbose_name = _('Assignment')
         verbose_name_plural = _('Assignments')
 
+
 class Hint(models.Model):
     description = models.CharField(_('Hint description'), max_length=2000)
     assignment =  models.ForeignKey(Assignment, related_name='assignment_hints', on_delete=models.CASCADE)

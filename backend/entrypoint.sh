@@ -8,7 +8,7 @@ echo "---- Collect static files ----"
 echo "---- Apply database migrations ----"
 ./manage.py migrate
 
-#Create django superuser admin qweqwe111 and reate site name if not created
+#Create django superuser admin qweqwe111, create site name if not created, populate DB
 echo "---- Init project ----"
 ./manage.py project_init
 
